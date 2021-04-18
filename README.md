@@ -18,7 +18,7 @@ It should then be able to read user input and perform a binary search for that c
 If a match is found, the byte offset that is associated with that card name will be read. It should then read from the other file (`cards.bin`) to obtain the rest of the card data and assemble the `CARD` record and print it to the screen.
 If the input is not from a terminal, the inputted line will be echoed to `stdout`.
 
-## Example:
+## Example 1:
 $ cat cards.csv
 ```
 "id","name","cost","converted_cost","type","text","stats","rarity"
